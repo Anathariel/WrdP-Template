@@ -1087,35 +1087,35 @@ section#presentation > section > p {
   }
 }
 
-section#error-page {
+main#error-page {
   display: flex;
   flex-direction: column-reverse;
   align-items: center;
   justify-content: center;
   overflow: hidden;
 }
-section#error-page > section.left-side {
+main#error-page > section.left-side {
   margin: 1rem 0.5rem;
 }
-section#error-page > section.left-side > p:first-child {
+main#error-page > section.left-side > p:first-child {
   color: #BF555F;
   font-family: "Marvel-regular";
   font-size: 1.8rem;
 }
-section#error-page > section.left-side > h1 {
+main#error-page > section.left-side > h1 {
   font-size: 2.8rem;
 }
-section#error-page > section.left-side > p {
+main#error-page > section.left-side > p {
   font-size: 1rem;
   font-family: "AlegreyaSans-light";
 }
-section#error-page > section.left-side > .button-error {
+main#error-page > section.left-side > .button-error {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   margin: 1rem 0;
 }
-section#error-page > section.left-side > .button-error > button {
+main#error-page > section.left-side > .button-error > button {
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
   outline: transparent;
@@ -1124,40 +1124,44 @@ section#error-page > section.left-side > .button-error > button {
   font-family: "AlegreyaSans-light";
   font-size: 1.5rem;
 }
-section#error-page > section.left-side > .button-error > button#return {
+main#error-page > section.left-side > .button-error > button#return {
   background-color: #2E3532;
   border: 1px solid #2E3532;
 }
-section#error-page > section.left-side > .button-error > button#return:hover {
+main#error-page > section.left-side > .button-error > button#return:hover {
   border: 1px solid #E0E2DB;
   background-color: rgba(46, 53, 50, 0.7490196078);
   transform: scale(1.1);
 }
-section#error-page > section.left-side > .button-error > button#home {
+main#error-page > section.left-side > .button-error > button#home {
   background-color: #BF555F;
   border: 1px solid #BF555F;
 }
-section#error-page > section.left-side > .button-error > button#home:hover {
+main#error-page > section.left-side > .button-error > button#home > a {
+  color: #E0E2DB;
+  font-family: "AlegreyaSans-light";
+}
+main#error-page > section.left-side > .button-error > button#home:hover {
   border: 1px solid #E0E2DB;
   background-color: rgba(191, 85, 95, 0.7490196078);
   transform: scale(1.1);
 }
-section#error-page > figure {
-  height: 100%;
+main#error-page > figure {
+  height: auto;
   width: 100%;
   min-width: 320px;
   min-height: 300px;
 }
-section#error-page > figure > img {
+main#error-page > figure > img {
   -o-object-fit: cover;
      object-fit: cover;
 }
 @media screen and (min-width: 635px) {
-  section#error-page {
+  main#error-page {
     display: flex;
     flex-direction: row;
   }
-  section#error-page > figure {
+  main#error-page > figure {
     width: 50%;
     height: 100%;
     border-radius: 0.5rem;

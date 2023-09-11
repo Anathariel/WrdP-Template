@@ -1306,7 +1306,7 @@ section#presentation {
 }
 
 //^ --------- 404  --------- //
-section#error-page {
+main#error-page {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
@@ -1363,7 +1363,10 @@ section#error-page {
             &>button#home {
                 background-color: $main-color;
                 border: 1px solid $main-color;
-
+                &>a{
+                    color: $white-bg;
+                    font-family: $alegreya-light;
+                }
                 &:hover {
                     border: 1px solid $white-bg;
                     background-color: $main-color-lowopacity;
@@ -1375,7 +1378,7 @@ section#error-page {
     }
 
     &>figure {
-        height: 100%;
+        height: auto;
         width: 100%;
         min-width: 320px;
         min-height: 300px;
