@@ -105,7 +105,7 @@
             }
             ?>
         </div>
-        <a href="#">En savoir plus . . .</a>
+        <a href="<?php echo get_permalink(2); ?>">En savoir plus . . .</a>
     </section>
 </main>
 <?php get_footer(); ?>
