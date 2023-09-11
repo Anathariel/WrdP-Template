@@ -1,0 +1,100 @@
+/* Oranienbaum FONT */
+
+@font-face {
+    font-family: 'Oranienbaum-regular';
+    src: url(../font/Oranienbaum-Regular.ttf);
+}
+
+/* Marvel FONT */
+
+@font-face {
+    font-family: 'Marvel-regular';
+    src: url(../font/Marvel-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Marvel-italic';
+    src: url(../font/Marvel-Italic.ttf);
+}
+
+@font-face {
+    font-family: 'Marvel-boldItalic';
+    src: url(../font/Marvel-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: 'Marvel-bold';
+    src: url(../font/Marvel-Bold.ttf);
+}
+
+/* Alegreya Sans */
+
+@font-face {
+    font-family: 'AlegreyaSansSans-regular';
+    src: url(../font/AlegreyaSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'AlegreyaSans-black';
+    src: url(../font/AlegreyaSans-Black.ttf);
+}
+
+@font-face {
+    font-family: 'AlegreyaSans-blackItalic';
+    src: url(../font/AlegreyaSans-BlackItalic.ttf);
+}
+
+@font-face {
+    font-family: 'AlegreyaSans-bold';
+    src: url(../font/AlegreyaSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'AlegreyaSans-boldItalic';
+    src: url(../font/AlegreyaSans-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: 'AlegreyaSans-extraBold';
+    src: url(../font/AlegreyaSans-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: 'AlegreyaSans-extraBoldItalic';
+    src: url(../font/AlegreyaSans-ExtraBoldItalic.ttf);
+}
+
+@font-face {
+    font-family: 'AlegreyaSans-italic';
+    src: url(../font/AlegreyaSans-Italic.ttf);
+}
+
+@font-face {
+    font-family: 'AlegreyaSans-light';
+    src: url(../font/AlegreyaSans-Light.ttf);
+}
+
+@font-face {
+    font-family: 'AlegreyaSans-lightItalic';
+    src: url(../font/AlegreyaSans-lightItalic.ttf);
+}
+
+@font-face {
+    font-family: 'AlegreyaSans-medium';
+    src: url(../font/AlegreyaSans-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'AlegreyaSans-mediumItalic';
+    src: url(../font/AlegreyaSans-MediumItalic.ttf);
+}
+
+@font-face {
+    font-family: 'AlegreyaSans-thin';
+    src: url(../font/AlegreyaSans-Thin.ttf);
+}
+
+@font-face {
+    font-family: 'AlegreyaSans-thinItalic';
+    src: url(../font/AlegreyaSans-ThinItalic.ttf);
+}
